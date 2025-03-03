@@ -5,5 +5,6 @@ most frequently visited locations. In case of deviation from the route, the loca
 ciated with the user account, along with push and email notifications. The application was made with Spring Boot,
 React.js and the Capacitor library that helped create the application in mobile format, Firebase as a database and Fire-
 base Cloud Notification for the push notification service.
+
 Spring Boot / Java / Firebase / TypeScript / Capacitor / React.js / Firebase Cloud Notifications
 / Google Maps API / REST API
