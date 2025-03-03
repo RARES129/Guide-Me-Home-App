@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: guidemehome
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: example@mail.com
+    password: example-password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+com:
+  guidemehome:
+    firebase:
+      serviceAccountFilePath: serviceAccount.json
+    open-api:
+      enabled: true
+      api-version: 1.0.0
+      title: Guide-Me-Home
+      description: Backend application for Guide-Me-Home

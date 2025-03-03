@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "outDir": "./build",
+      "allowJs": true,
+      "target": "ESNext",
+      "moduleResolution": "node",
+      "experimentalDecorators": false, // default for TypeScript 5.0 and up
+      "useDefineForClassFields": true, // default when "target" is "ES2022" or higher
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["./src/**/*.ts", "./src/**/*.tsx", "public/firebase-messaging-sw.js"]
+  }

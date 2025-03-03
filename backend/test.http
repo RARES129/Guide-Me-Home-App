@@ -1,0 +1,15 @@
+POST http://localhost:8080/notifications
+Content-Type: application/json
+
+{
+  "userEmail": "dascalurares@gmail.com",
+  "message": "Test notification",
+  "timestamp": 1695645600000,
+  "isRead": false
+}
+
+### Retrieve Unread Notifications
+POST http://localhost:8080/notifications/unread
+Content-Type: text/plain
+
+dascalurares@gmail.com
